@@ -1,0 +1,110 @@
+a {
+    text-decoration: none;
+}
+
+.img-fluid {
+    top: 0;
+    position: sticky;
+    width: 100%;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0);
+    z-index: 1;
+}
+
+.popbtn {
+    margin-top: 3%;
+    margin-left: 5%;
+}
+
+.stock-tersedia {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.progress {
+    width: 70%;
+    margin: auto;
+    margin-top: 1%;
+    font-weight: bold;
+}
+
+.card-group {
+    display: block;
+    position: relative;
+    margin: auto;
+    margin-top: 3%;
+    max-width: 90%;
+    border-radius: 3%;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.card-title {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.card-text {
+    font: 9px;
+}
+
+.blockquote {
+    font-size: 5px;
+    max-width: 90%;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.blockquote-footer {
+    font-size: 10px;
+    max-width: 90%;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.d-grid {
+    margin-top: 5%;
+}
+
+.btn {
+    margin-bottom: 30px;
+}
+
+.shadow {
+    margin: auto;
+    max-width: 90%;
+    padding-top: 20px;
+}
+
+.card-text {
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.card-footer {
+    background-color: silver;
+    padding: 20px;
+    margin: 20px;
+}
+
+.fa-whatsapp {
+    color: black;
+    margin: 7px;
+}
+
+.fa-square-instagram {
+    color: black;
+    margin: 7px;
+}
+
+.fa-youtube {
+    color: black;
+    margin: 7px;
+}
+
+.img-fluid-footer {
+    width: 100%;
+    margin-top: 5%;
+}
