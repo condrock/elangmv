@@ -12,14 +12,15 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
     <link rel="icon" href="favicon">
 </head>
 
 <body>
 
     <!-- navbar starts -->
-    <section class="fixed-top z-9" style="width: 100%;">
-        <nav class="navbar bg-dark">
+    <section>
+        <nav class="navbar fixed-top z-9 bg-dark ">
             <div class="container-fluid">
                 <a class="navbar-brand text-light fw-bold fs-3" href="https://elangmv.eu.org">
                     <img src="logo.jpg" style="border-radius: 50%;" alt="Logo" width="30"
@@ -32,8 +33,8 @@
     <!-- navbar ends -->
 
     <!-- carousel starts -->
-    <section class="mt-5">
-        <div id="carouselExample" class="carousel slide">
+    <section>
+        <div id="carouselExample" class="carousel slide mt-5">
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="emv1.jpeg" class="d-block w-100" alt="...">
@@ -46,11 +47,11 @@
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="carousel-control-prev-icon" style="background-color: black; opacity: 0.4;" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
             </button>
             <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="carousel-control-next-icon" style="background-color: black; opacity: 0.4;" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
@@ -59,13 +60,14 @@
 
     <!-- header starts -->
     <section>
-            <h1 class="mx-auto text-bg-primary fw-bold fs-1 mt-1 p-2" style="width: 100%; text-align: center;"><i class="fa-brands fa-shopify"></i> D'Lumerz  <i class="fa-brands fa-shopify"></i></h1>
+            <h1 class="mx-auto text-bg-primary fw-bold fs-1 mt-0 p-2" style="width: 100%; text-align: center;"><i class="fa-brands fa-shopify"></i> D'Lumerz  <i class="fa-brands fa-shopify"></i></h1>
     </section>
     <!-- header ends -->
 
+    <!-- nav menu -->
     <ul class="nav justify-content-center">
         <li class="nav-item">
-            <a class="nav-link" href="#beranda">Beranda</a>
+            <a class="nav-link active" aria-current="page" href="#beranda">Beranda</a>
         </li>
         <li class="nav-item">
             <a class="nav-link" href="#belanja">Belanja</a>
@@ -77,10 +79,11 @@
             <a class="nav-link" href="#testi">Testi</a>
         </li>
     </ul>
+    <!-- nav menu -->
 
     <!-- halal -->
-    <section id="beranda">
-    <img src="halal.png" alt="halal" class="img-fluid mx-auto d-flex mt-5" style="max-width: 100px;">
+    <section id="beranda" style="padding-top: 70px;">
+    <img src="halal.png" alt="halal" class="img-fluid mx-auto d-flex" style="max-width: 100px;">
     </section>
     <!-- halal -->
 
@@ -133,7 +136,7 @@
     <!-- progress ends -->
 
     <!-- mulai belanja -->
-    <section id="belanja" class="container">
+    <section id="belanja" class="container" style="padding-top: 70px;">
     <div class="alert alert-primary container text-center" role="alert">
     <i class="fa-solid fa-cart-shopping flex-shrink-0 me-1"></i>Mulai belanja D'Lumerz
     </div>
@@ -219,7 +222,7 @@
     <!-- product ends -->
 
     <!-- pesan sekarang starts -->
-    <section id="kontak">
+    <section id="kontak" style="padding-top: 60px;">
         <div class="mx-auto position-relative d-flex justify-content-center mt-5 w-100">
             <a href="https://wa.me/62895330390030" target="_blank">
                 <button type="button" class="btn btn-primary btn-lg">
@@ -245,7 +248,7 @@
     <!-- cek resi ends -->
 
     <!-- testimoni starts -->
-    <section id="testi">
+    <section id="testi" style="padding-top: 60px;">
         <div class="container-fluid position-relative mt-3">
             <div class="row d-flex justify-content-center testimonial-pos">
                 <div class="col-md-12 pt-4 d-flex justify-content-center">
