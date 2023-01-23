@@ -156,7 +156,7 @@
         <div class="row row-cols-1 row-cols-md-2 g-4">
             <div class="col">
                 <div class="card">
-                    <img src="product1.jpg" class="card-img-top" alt="...">
+                    <img src="product1.jpg" class="card-img-top" alt="D'LUMERZ">
                     <div class="card-body">
                         <div class="star d-flex mx-auto justify-content-center mb-2">
                             <i class="fa-solid fa-star text-warning fs-3 mx-1"></i>
@@ -167,6 +167,10 @@
                         </div>
                         <h5 class="card-title fw-bold text-center">D'LUMERZ</h5>
                         <h6 class="card-title fw-bold text-center">Dark Chocolate</h6>
+                        <div class="alert alert-success" role="alert">
+                            <i class="fa-solid fa-circle-info"></i>
+                            Dark Chocolate<br>Jenis cokelat dengan kandungan padatan kakao yang paling tinggi.
+                        </div>
                         <p class="card-text">D'Lumerz menawarkan produk makanan ringan yang sehat dan berkualitas, kami memperhatikan kualitas bahan-bahan alami yang
                         digunakan.</p>
                     </div>
@@ -174,7 +178,7 @@
             </div>
             <div class="col">
                 <div class="card">
-                    <img src="product2.jpg" class="card-img-top" alt="...">
+                    <img src="product2.jpg" class="card-img-top" alt="D'LUMERZ">
                     <div class="card-body">
                         <div class="star d-flex mx-auto justify-content-center mb-2">
                             <i class="fa-solid fa-star text-warning fs-3 mx-1"></i>
@@ -185,6 +189,10 @@
                         </div>
                         <h5 class="card-title fw-bold text-center">D'LUMERZ</h5>
                         <h6 class="card-title fw-bold text-center">Tiramisu</h6>
+                        <div class="alert alert-success" role="alert">
+                            <i class="fa-solid fa-circle-info"></i>
+                            Tiramisu<br>Kelezatan dessert khas dari Italia memiliki sangat banyak penggemar.
+                        </div>
                         <p class="card-text">D'Lumerz adalah pilihan makanan ringan yang sehat dan berkualitas, kami menggunakan bahan-bahan alami yang berkualitas
                         tinggi.</p>
                     </div>
@@ -192,7 +200,7 @@
             </div>
             <div class="col">
                 <div class="card">
-                    <img src="product3.jpg" class="card-img-top" alt="...">
+                    <img src="product3.jpg" class="card-img-top" alt="D'LUMERZ">
                     <div class="card-body">
                         <div class="star d-flex mx-auto justify-content-center mb-2">
                             <i class="fa-solid fa-star text-warning fs-3 mx-1"></i>
@@ -203,13 +211,17 @@
                         </div>
                         <h5 class="card-title fw-bold text-center">D'LUMERZ</h5>
                         <h6 class="card-title fw-bold text-center">Strawberry</h6>
+                        <div class="alert alert-success" role="alert">
+                            <i class="fa-solid fa-circle-info"></i>
+                            Strawberry<br>Memiliki rasa manis yang menyenangkan dan memanjakan.
+                        </div>
                         <p class="card-text">D'Lumerz merupakan solusi makanan ringan sehat yang dibuat dari bahan-bahan alami berkualitas tinggi.</p>
                     </div>
                 </div>
             </div>
             <div class="col">
                 <div class="card">
-                    <img src="product4.jpg" class="card-img-top" alt="...">
+                    <img src="product4.jpg" class="card-img-top" alt="D'LUMERZ">
                     <div class="card-body">
                         <div class="star d-flex mx-auto justify-content-center mb-2">
                             <i class="fa-solid fa-star text-warning fs-3 mx-1"></i>
@@ -220,6 +232,10 @@
                         </div>
                         <h5 class="card-title fw-bold text-center">D'LUMERZ</h5>
                         <h6 class="card-title fw-bold text-center">Green Tea</h6>
+                        <div class="alert alert-success" role="alert">
+                            <i class="fa-solid fa-circle-info"></i>
+                            Green Tea<br>Rasakan sensasi alami seperti di pegunungan.
+                        </div>
                         <p class="card-text">D'Lumerz menyediakan produk makanan ringan yang sehat dan berkualitas, kami menggunakan bahan-bahan alami yang dipilih
                         dengan seksama.</p>
                     </div>
@@ -238,25 +254,23 @@
     <!-- pesan sekarang end -->
 
     <!-- formulir pesanan -->
-    <div>
-
-    </div>
     <section>
         <form class="container">
             <div class="form-group">
                 <label for="name" class="nama fw-semibold">Nama:<span class="require text-danger">*</span></label>
-                <input type="text" class="form-control" id="name" name="name" required>
+                <input type="text" style="border: 1px solid #808080;" class="form-control" id="name" placeholder="Nama kamu siapa?" name="name" required>
             </div>
 
             <div class="form-group mt-3">
                 <label for="address" class="alamat fw-semibold">Alamat:<span class="require text-danger">*</span></label>
-                <textarea class="form-control" rows="5" id="address" address="address" required></textarea>
+                <textarea  style="border: 1px solid #808080;" class="form-control" rows="5" id="address" placeholder="Kamu tinggal dimana?" address="address" required></textarea>
             </div>
 
             <div class="form-group mt-3">
                 <label for="flavor" class="varian fw-semibold
                 ">Varian Rasa:<span class="require text-danger">*</span></label>
-                <select class="form-control" id="flavor" name="flavor">
+                <select  style="border: 1px solid #808080;" class="form-control" id="flavor" name="flavor">
+                    <option value="">Mau rasa apa?</option>
                     <option value="Dark Chocolate">Dark Chocolate</option>
                     <option value="Tiramisu">Tiramisu</option>
                     <option value="Strawberry">Strawberry</option>
