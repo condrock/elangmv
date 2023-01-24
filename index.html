@@ -61,18 +61,21 @@
     <!-- header -->
     <section class="header text-bg-primary">
             <h2 class="mx-auto fw-bold fs-3 mt-0 p-2" style="width: 100%; text-align: center;"><i class="fa-brands fa-shopify me-3 fs-5"></i>D'Lumerz<i class="fa-brands fa-shopify ms-3 fs-5"></i></h2>
-    <ul class="nav justify-content-center">
+    <ul class="nav justify-content-center gap-3">
         <li class="nav-item">
-            <a class="nav-link active text-white fw-bold" aria-current="page" href="#beranda">Beranda</a>
+            <a class="nav-link active text-white fw-bold" aria-current="page" href="#beranda"><i class="fa-solid fa-house"></i></a>
         </li>
         <li class="nav-item">
-            <a class="nav-link text-white fw-bold" href="#belanja">Belanja</a>
+            <a class="nav-link text-white fw-bold" href="#produk"><i class="fa-solid fa-cart-shopping"></i></a>
         </li>
         <li class="nav-item">
-            <a class="nav-link text-white fw-bold" href="#kontak">Kontak</a>
+            <a class="nav-link text-white fw-bold" href="#kontak"><i class="fa-solid fa-mobile"></i></a>
         </li>
         <li class="nav-item">
-            <a class="nav-link text-white fw-bold" href="#testi">Testi</a>
+            <a class="nav-link text-white fw-bold" href="#cekresi"><i class="fa-solid fa-solid fa-truck flex-shrink-0 me-1"></i></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-white fw-bold" href="#testi"><i class="fa-solid fa-comment-dots"></i></a>
         </li>
     </ul>
     </section>
@@ -144,9 +147,9 @@
     <!-- progress end -->
 
     <!-- mulai belanja -->
-    <section id="belanja" class="container" style="padding-top: 70px;">
+    <section id="produk" class="container" style="padding-top: 70px;">
     <div class="alert alert-primary container text-center" role="alert">
-    <i class="fa-solid fa-cart-shopping flex-shrink-0 me-1"></i>Mulai belanja D'Lumerz
+    <i class="fa-solid fa-cart-shopping flex-shrink-0 me-1"></i>Produk Dlumerz
     </div>
     </section>
     <!-- mulai belanja end -->
@@ -169,7 +172,7 @@
                         <h6 class="card-title fw-bold text-center">Dark Chocolate</h6>
                         <div class="alert alert-success" role="alert">
                             <i class="fa-solid fa-circle-info"></i>
-                            Dark Chocolate<br>Jenis cokelat dengan kandungan padatan kakao yang paling tinggi.
+                            Dlumerz Dark Chocolate<br>Jenis cokelat dengan kandungan padatan kakao yang paling tinggi.
                         </div>
                         <p class="card-text">D'Lumerz menawarkan produk makanan ringan yang sehat dan berkualitas, kami memperhatikan kualitas bahan-bahan alami yang
                         digunakan.</p>
@@ -191,7 +194,7 @@
                         <h6 class="card-title fw-bold text-center">Tiramisu</h6>
                         <div class="alert alert-success" role="alert">
                             <i class="fa-solid fa-circle-info"></i>
-                            Tiramisu<br>Kelezatan dessert khas dari Italia memiliki sangat banyak penggemar.
+                            Dlumerz Tiramisu<br>Kelezatan dessert khas dari Italia memiliki sangat banyak penggemar.
                         </div>
                         <p class="card-text">D'Lumerz adalah pilihan makanan ringan yang sehat dan berkualitas, kami menggunakan bahan-bahan alami yang berkualitas
                         tinggi.</p>
@@ -213,7 +216,7 @@
                         <h6 class="card-title fw-bold text-center">Strawberry</h6>
                         <div class="alert alert-success" role="alert">
                             <i class="fa-solid fa-circle-info"></i>
-                            Strawberry<br>Memiliki rasa manis yang menyenangkan dan memanjakan.
+                            Dlumerz Strawberry<br>Memiliki rasa manis yang menyenangkan dan memanjakan.
                         </div>
                         <p class="card-text">D'Lumerz merupakan solusi makanan ringan sehat yang dibuat dari bahan-bahan alami berkualitas tinggi.</p>
                     </div>
@@ -234,7 +237,7 @@
                         <h6 class="card-title fw-bold text-center">Green Tea</h6>
                         <div class="alert alert-success" role="alert">
                             <i class="fa-solid fa-circle-info"></i>
-                            Green Tea<br>Rasakan sensasi alami seperti di pegunungan.
+                            Dlumerz Green Tea<br>Rasakan sensasi alami seperti di pegunungan.
                         </div>
                         <p class="card-text">D'Lumerz menyediakan produk makanan ringan yang sehat dan berkualitas, kami menggunakan bahan-bahan alami yang dipilih
                         dengan seksama.</p>
@@ -248,7 +251,7 @@
     <!-- pesan sekarang -->
     <section  id="kontak" class="container" style="padding-top: 70px;">
         <div class="alert alert-primary container text-center" role="alert">
-            <i class="fa-solid fa-cart-arrow-down flex-shrink-0 me-1"></i>Pesan D'Lumerz
+            <i class="fa-solid fa-cart-arrow-down flex-shrink-0 me-1"></i>Pesan Dlumerz
         </div>
     </section>
     <!-- pesan sekarang end -->
@@ -273,13 +276,13 @@
                     <option value="" disabled selected>Mau rasa apa?</option>
                     <option value="Dark Chocolate">Dark Chocolate</option>
                     <option value="Tiramisu">Tiramisu</option>
-                    <option value="Strawberry">Strawberry</option>
+                    <option value="Strawberry">Strawberry</option> 
                     <option value="Green Tea">Green Tea</option>
                 </select>
             </div>
 
             <button type="button" class="btn btn-primary mt-3 d-flex align-items-center mx-auto btn-lg"
-                onclick="window.open('https://wa.me/62895330390030?text=Saya%20ingin%20memesan%20DLUMERZ%20rasa%20'+document.getElementById('flavor').value+'%20untuk%20'+document.getElementById('name').value+'%20alamat%20'+document.getElementById('address').value, '_blank')"><i class="fa-solid fa-mobile-screen-button me-1"></i>Pesan
+                onclick="window.open('https://wa.me/62895330390030?text=Saya%20ingin%20memesan%20DLUMERZ%20rasa%20'+document.getElementById('flavor').value+'%20untuk%20'+document.getElementById('name').value+'%20alamat%20'+document.getElementById('address').value, '_blank')"><i class="fa-solid fa-brands fa-whatsapp flex-shrink-0 me-1" style="color: #fff;"></i>Pesan
                 D'Lumerz</button>
                 </a>
         </form>
@@ -287,8 +290,8 @@
     <!-- formulir pesanan end -->
 
     <!-- cek resi header -->
-    <section class="container">
-        <div class="alert alert-primary container text-center mt-5" role="alert">
+    <section id="cekresi" class="container" style="padding-top: 70px;">
+        <div class="alert alert-primary container text-center" role="alert">
             <i class="fa-solid fa-solid fa-truck flex-shrink-0 me-1"></i>Cek Resi
         </div>
     </section>
@@ -412,11 +415,11 @@
     
             <div class="card-footer fs-2 bg-white">
                 <a href="https://api.whatsapp.com/send?phone=62895330390030" target="_blank">
-                    <i class="fa-brands fa-whatsapp mx-3" style="color: green;"></i></a>
+                    <i class="fa-brands fa-whatsapp mx-3" style="color: #075e54;"></i></a>
                 <a href="https://www.youtube.com/@elangmv/" target="_blank">
                     <i class="fa-brands fa-youtube text-danger mx-3"></i></a>
                 <a href="https://www.instagram.com/elang.mv/" target="_blank">
-                    <i class="fa-brands fa-instagram mx-3" style="color: violet;"></i></a>
+                    <i class="fa-brands fa-instagram mx-3" style="color: #c13584;"></i></a>
             </div>
         </div>
     </section>
@@ -474,6 +477,12 @@
             <div class="row">
                 <div class="text-center">
                     <p><a href="#" class="back-to-top text-decoration-none text-white fw-bold"><i class="fa-solid fa-sort-up fs-1"></i><br>Back to Top</a></p>
+                    <hr>
+                    <div class="page">
+                        <a href="https://elangmv.eu.org/" class="beranda" style="text-decoration: none;">Home |</a>
+                        <a href="disclaimer.html" class="disclaimer" style="text-decoration: none;">Disclaimer |</a>
+                        <a href="privacy.html" class="privacy" style="text-decoration: none;">Privacy</a>
+                    </div>
                     <hr>
                     <h6>Copyright &copy; 2023 <a href="https://elangmv.eu.org" class="text-danger" style="text-decoration: none;">Elang MV</a></h3>
                     <p>made with <i class="fas fa-heart" style="color:red;"></i> #motovlogindonesia</p>
